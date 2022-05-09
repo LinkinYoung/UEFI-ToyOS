@@ -44,6 +44,7 @@ git submodule add https://github.com/tianocore/edk2.git src/edk2
 　　QEMU 是一个开源的虚拟机模拟器，可以模拟任意架构的 CPU。它的 [虚拟 FAT 磁盘镜像](https://www.qemu.org/docs/master/system/images.html#virtual-fat-disk-images) 功能可以将主机上的目录模拟为一个FAT磁盘镜像，非常适合调试我们编译好的 efi 程序。 
 
 **批注：**
+
 　　谭玉刚在这一步描述的不是很详细，而且有很多无关步骤。他的操作主要是：
 
 1. 编译 QEMU 使用的 UEFI 运行时，使虚拟机支持 UEFI 引导。
